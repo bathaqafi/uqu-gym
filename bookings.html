@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="project.css">
+<title>Your reservations</title>
+</head>
+
+<body>
+<div id="logo">
+<img src="UQUlogo.png.png" align="center">
+</div>
+<div id="wrapper">
+<header><h1>Here are your reservations</h1></header>
+
+<main>
+<table>
+
+<tr>
+<th>Reservation</th>
+</tr>
+
+<tr>
+<td>activity: <?php echo $_POST["act"]?></td>
+</tr>
+
+<tr>
+<td>tables: <?php echo $_POST["sit"]?></td>
+</tr>
+
+<tr>
+<td>Date: <?php echo $_POST["aDate"]?></td>
+</table>
+<center><a href="review.html">Review your experience now!</a></center>
+</div>
+</main>
+<br><br><br>
+<input type="button" value="Go back!" onclick="history.back()">
+<footer>
+<i><a href="contact.html">contact us</a>
+<br>UMM AL-QURA UNIVERSITY &copy;</i>
+</footer>
+</body>
+</html>

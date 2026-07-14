@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="project.css">
+<title>reservation</title>
+</head>
+
+<body>
+<div id="logo">
+<img src="UQUlogo.png.png" align="center">
+</div>
+<div id="wrapper">
+<h1>Make a reservation</h1> 
+<main>
+<form method="post" action="bookings.html">
+<h2>Choose the activity and the time you want</h2>
+<h3>activity:</h3>
+<select size="1" name="act" id="act" required="required">
+<option value="Basketball">Basketball</option>
+<option value="Table tennis">Table tennis</option>
+<option value="Football table">Football table</option>
+</select><br>
+ 
+<h3>number of tablese:</h3>
+<h4>Note: each table has 6 seats</h4>
+<select size="1" name="sit" id="sit" required="required">
+<option value="one">1 table</option>
+<option value="two">2 tables</option>
+<option value="three">3 tables</option>
+<option value="four">4 tables</option>
+</select><br>
+	
+<h3>date:</h3>
+<label for="aDate"><label>
+<input type="date" name="aDate" id="aDate" required="required"><br>
+ 
+<h3>time:</h3>
+<select size="1" name="time" id="time" required="required">
+<option value="8:30 to 9:30">8:30 to 9:30</option>
+<option value="9:30 to 10:30">9:30 to 10:30</option>
+<option value="11:30 to 12:30">11:30 to 12:30</option>
+<option value="12:30 to 1:30">12:30 to 1:30</option>
+</select>
+<br><br>
+<center><input type="submit" value="submit"></center>
+</form>
+<br>
+</div>
+</main>
+<br><br><br>
+<input type="button" value="Go back" onclick="history.back()">
+<footer>
+<i><a href="contact.html">contact us</a>
+<br>UMM AL-QURA UNIVERSITY &copy;</i>
+</footer>
+</body>
+</html>
